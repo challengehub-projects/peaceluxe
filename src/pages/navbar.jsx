@@ -53,7 +53,7 @@ function Navbar() {
               {links.map((label, i) => (
                 <motion.a
                   key={label}
-                  href={`#${label.toLowerCase()}`}
+                  href={`/${label.toLowerCase()}`}
                   onClick={() => setOpen(false)}
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
