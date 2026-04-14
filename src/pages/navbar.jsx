@@ -7,10 +7,6 @@ function Navbar() {
 
   const links = ["Home", "About", "Contact"];
 
-   const path =
-  label === "Home"
-    ? "/"
-    : `/${label.toLowerCase()}`;
 
   return (
     <motion.nav
@@ -56,7 +52,7 @@ function Navbar() {
               {links.map((label, i) => (
                 <motion.a
                   key={label}
-                  href={path}
+                  href={`/${label.toLowerCase()}`}
                   onClick={() => setOpen(false)}
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
