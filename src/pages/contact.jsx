@@ -113,5 +113,7 @@ export default function Contact() {
                 </div>
             </div>
         </section>
+
+        <WhatsAppFloat />
     );
 }
