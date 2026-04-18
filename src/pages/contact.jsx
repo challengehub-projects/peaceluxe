@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Contact() {
     const [message, setMessage] = useState("");
 
-    const phoneNumber = "234XXXXXXXXXX"; // 🔥 replace with your WhatsApp number
+    const phoneNumber = "2347078910740"; // 🔥 replace with your WhatsApp number
 
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
         message || "Hello PEACELUXE, I want to make an order."

@@ -20,7 +20,7 @@ export default function About() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          src="https://images.pexels.com/photos/965989/pexels-photo-965989.jpeg"
+          src="https://images.pexels.com/photos/32616678/pexels-photo-32616678.jpeg"
           className="w-full h-[420px] object-cover rounded-2xl mb-16"
         />
 
@@ -50,7 +50,7 @@ export default function About() {
             transition={{ duration: 1 }}
           >
             <img
-              src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg"
+              src="https://images.pexels.com/photos/3927390/pexels-photo-3927390.jpeg"
               className="rounded-2xl h-[320px] w-full object-cover"
             />
           </motion.div>

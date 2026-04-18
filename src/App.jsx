@@ -11,20 +11,20 @@ function App() {
       <Routes>
         <Route path="/" element={
           <>
-      <Navbar /> 
-        <Home />
-        <Footer />
-        </>
+            <Navbar />
+            <Home />
+            <Footer />
+          </>
         } />
         <Route path="/contact" element={<>
-        <Navbar />
-        <Contact />
-        <Footer />
+          <Navbar />
+          <Contact />
+          <Footer />
         </>} />
         <Route path="/about" element={<>
-        <Navbar />
-        <About />
-        <Footer />
+          <Navbar />
+          <About />
+          <Footer />
         </>} />
       </Routes>
     </BrowserRouter>
