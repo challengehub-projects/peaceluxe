@@ -7,7 +7,7 @@ import {
   FaTwitter,
   FaEnvelope,
 } from "react-icons/fa";
-
+import WhatsAppFloat from "./whatsaappfloat";
 
 function Home() {
   return (
@@ -389,6 +389,8 @@ function Home() {
         <div className="absolute top-1/2 left-1/2 w-[500px] h-[500px] bg-[#d4af37]/10 blur-[120px] -translate-x-1/2 -translate-y-1/2 rounded-full"></div>
 
       </section>
+
+        <WhatsAppFloat />
 
     </div>
   );
