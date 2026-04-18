@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import WhatsAppFloat from "./whatsaappfloat";
 
 export default function About() {
   return (
@@ -130,5 +131,7 @@ export default function About() {
 
       </div>
     </section>
+
+    <WhatsAppFloat />
   );
 }
