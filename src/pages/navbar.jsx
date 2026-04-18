@@ -40,6 +40,7 @@ function Navbar() {
 
       {/* MOBILE MENU */}
       <AnimatePresence>
+        
         {open && (
           <motion.div
             initial={{ height: 0, opacity: 0 }}
@@ -52,7 +53,9 @@ function Navbar() {
               {links.map((label, i) => (
                 <motion.a
                   key={label}
-                  href={`/${label.toLowerCase()}`}
+                  href={ label === "Home"
+                  ? "/"
+                  : `/${label.toLowerCase()}`}
                   onClick={() => setOpen(false)}
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
